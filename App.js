@@ -13,7 +13,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import home from './pages/home';
 import graficas from './pages/graficas';
 import crearUsuarios from './pages/crearUsuarios';
-import muestra from './pages/muestra';
 
 // Importar Layout
 import Layout from './components/Layout';
@@ -36,7 +35,6 @@ function App() {
 						<Route exact path="/" component={home} />
 						<Route exact path="/intereses" component={graficas} />
 						<Route exact path="/usuarios" component={crearUsuarios} />
-						<Route exact path="/muestra" component={muestra} />
 					</Switch>
 				</Layout>
 			</BrowserRouter>
